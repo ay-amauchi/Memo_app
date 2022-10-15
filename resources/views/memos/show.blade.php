@@ -1,4 +1,3 @@
-
 <!DOCTYPE html>
 <html lang="ja">
 <head>
@@ -8,9 +7,8 @@
     <title>memo show</title>
 </head>
 <body>
-    <h1>タイトル</h1>
+    <a href="/memos">戻る</a>
     <h1>{{ $memo->title }}</h1>
-    <p>本文</p>
     <p>{!! nl2br(e($memo->body)) !!}</p>
 </body>
 </html>
